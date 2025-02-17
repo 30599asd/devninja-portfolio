@@ -1,21 +1,21 @@
 <div align="center">
-  <a href="https://github.com/karthikmudunuri/eldoraui">
+  <a href="https://github.com/super-devninja/eldoraui">
 
 
- <img src="https://github.com/user-attachments/assets/d00f15e8-cc1a-47a6-b99f-885156a55fc3" alt="Logo" width="60" height="60">
+ <img src="" alt="Logo" width="60" height="60">
   </a>
-  <h1 align="center">Eldora UI</h1>
+  <h1 align="center"></h1>
   <p align="center">
    open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion.
 100% open-source, and customizable.
   </p>
   <p>
     
-   <a href="https://www.eldoraui.site/">Visit site</a>
+   <a href="">Visit site</a>
     ·
-    <a href="https://github.com/karthikmudunuri/eldoraui/issues">Report Bug</a>
+    <a href="">Report Bug</a>
     ·
-    <a href="https://github.com/karthikmudunuri/eldoraui/issues">Request Feature</a>
+    <a href="">Request Feature</a>
   </p>
 </div>
 
@@ -23,7 +23,8 @@
 
 <div align="center">
 
- <img width="1425" alt="Portfolio-template" src="https://github.com/user-attachments/assets/265fa13e-98ed-4c99-bd7f-ce7efe19627f">
+
+ <img width="1425" alt="Portfolio-template" src="">
 
  
 </div>
@@ -43,7 +44,7 @@ Minimalist developer portfolio using Next.js 14, React, TailwindCSS, Framer moti
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/karthikmudunuri/portfolio-template
+   git clone https://github.com/super-devninja/portfolio-template
    ```
 
 2. Move to the cloned directory
@@ -64,8 +65,8 @@ Minimalist developer portfolio using Next.js 14, React, TailwindCSS, Framer moti
    npm run dev
    ```
 
-5. Open the [Sections](https://github.com/karthikmudunuri/portfolio-template/tree/main/app/sections) folder and make changes
+5. Open the [Sections](https://github.com/super-devninja/portfolio-template/tree/main/app/sections) folder and make changes
 
 # License
 
-Licensed under the [MIT license](https://github.com/karthikmudunuri/portfolio-template/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/super-devninja/portfolio-template/blob/main/LICENSE.md).
