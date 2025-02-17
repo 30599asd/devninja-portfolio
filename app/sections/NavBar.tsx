@@ -38,17 +38,6 @@ const NavBar = () => {
                     </Link>
 
                     <Link
-                        href="#resume"
-                        data-blobity-magnetic="false"
-                        onClick={handleScroll}
-                        aria-label="Scroll to resume Section"
-                    >
-                        <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              Resume
-                        </h4>
-                    </Link>
-
-                    <Link
                         href="#about"
                         data-blobity-magnetic="false"
                         onClick={handleScroll}
