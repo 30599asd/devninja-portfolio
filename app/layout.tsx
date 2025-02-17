@@ -57,15 +57,6 @@ export const metadata: Metadata = {
         locale: "en-US",
         type: "website",
     },
-    twitter: {
-        card: "summary_large_image",
-        title: "Portfolio template - Eldora UI",
-        description:
-      "Portfolio template - Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        creator: "@karthikmudunuri",
-        creatorId: "0000000000",
-        images: ["./public/metadata.jpg"],
-    },
     robots: {
         index: true,
         follow: true,
