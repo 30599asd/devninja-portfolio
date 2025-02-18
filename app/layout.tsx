@@ -11,11 +11,11 @@ const syne = Inter({
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://www.example.com/"),
-    title: "Portfolio template - Eldora UI",
+    title: "Kamil.N portfolio - UI",
     description:
-    "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+    "It is a Kamil.N portfolio built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
     generator: "Next.js",
-    applicationName: "Portfolio template",
+    applicationName: "Kamil.N portfolio",
     keywords: [
         "Portfolio template",
         "Eldora UI",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Portfolio template - Eldora UI",
+        title: "Kamil.N portfolio - UI",
         description:
-      "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+      "It is a Kamil.N portfolio built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
         url: "https://www.eldoraui.site/",
         siteName: "www.eldoraui.site",
         images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
                 url: "./public/metadata.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Portfolio template - Eldora UI",
+                alt: "Kamil.N portfolio - UI",
             },
         ],
         locale: "en-US",
