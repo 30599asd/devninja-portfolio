@@ -5,8 +5,8 @@ import AnimatedTitle from "../animations/AnimatedTitle";
 import {
     SiGit,
     SiGithub,SiPostgresql,SiMysql,
-    SiJavascript, SiNextdotjs, SiReact, SiTypescript,SiLaravel,SiWordpress, SiSolidity,
-    SiMongodb,SiDjango,
+    SiJavascript, SiNextdotjs, SiReact, SiTypescript,SiLaravel,SiWordpress, SiSolidity, SiBlockchaindotcom,
+    SiMongodb,SiDjango,SiAngular, SiVuedotjs,
     SiNodedotjs
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
@@ -38,7 +38,9 @@ const Tools = () => {
                                 <SiReact size={50}/>
                                 <SiLaravel size={50}/>
                                 <SiWordpress size={50}/>
-                                
+                                <SiWordpress size={50}/>
+                                <SiAngular size={50}/>
+                                <SiVuedotjs size={50}/>                    
                                 <SiNextdotjs size={50}/>
                             </AnimatedTools>
                         </div>
@@ -53,6 +55,7 @@ const Tools = () => {
                                 <SiNodedotjs size={50}/>
                                 <SiSolidity size={50}/>
                                 <SiDjango size={50}/>
+                                <SiBlockchaindotcom size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>

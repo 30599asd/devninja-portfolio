@@ -52,4 +52,30 @@ export const projects = [
         image: "/projects/medcare4all.jpg",
         available: true,
     },
+    {
+        id: 2,
+        name: "CapGo-UI",
+        description:
+            "open-source animated components built with Next.js, Typescript and Tailwind CSS. 100% open-source, and customizable.",
+        technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiFramer],
+        techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Framer Motion"],
+        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
+        github: "",
+        demo: "https://capgo.ai/",
+        image: "/projects/capgo.ai.jpg",
+        available: true,
+    },
+    {
+        id: 3,
+        name: "EmilyBeautySalon",
+        description:
+            "open-source animated components built with React, Typescript, Google Cloud CDN and  100% open-source, and customizable.",
+        technologies: [SiTypescript, SiReact, SiTailwindcss],
+        techNames: ["TypeScript", "React", "Tailwind CSS"],
+        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://tailwindcss.com/"],
+        github: "",
+        demo: "https://www.emilybeautysalon.com/",
+        image: "/projects/Emily Beauty Salon.jpg",
+        available: true,
+    },
 ];
