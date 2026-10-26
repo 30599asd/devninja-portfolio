@@ -19,7 +19,7 @@ const Tools = () => {
         >
             <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
                 <AnimatedTitle
-                    text={"TOOLS IM USING."}
+                    text={"常用技术栈"} // 原为 TOOLS IM USING.
                     className={
                         "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
                     }
@@ -30,7 +30,7 @@ const Tools = () => {
                 <div className="mx-auto w-[100%] lg:max-w-[1200px] justify-center">
                    
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
-                        <AnimatedBody delay={0.2} text="Frontend" />
+                        <AnimatedBody delay={0.2} text="前端开发" /> {/* 原为 Frontend */}
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.2} stepSize={0.1} iconSize={50}>
                                 <SiTypescript size={50}/>
@@ -46,7 +46,7 @@ const Tools = () => {
                         </div>
                     </div>
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
-                        <AnimatedBody delay={0.3} text="Backend" />
+                        <AnimatedBody delay={0.3} text="后端开发" /> {/* 原为 Backend */}
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.3} stepSize={0.1} iconSize={50}>
                                 <SiPostgresql size={50}/>
@@ -60,7 +60,7 @@ const Tools = () => {
                         </div>
                     </div>
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
-                        <AnimatedBody delay={0.4} text="Other" />
+                        <AnimatedBody delay={0.4} text="其他工具" /> {/* 原为 Other */}
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
                                 <SiGithub size={50}/>
