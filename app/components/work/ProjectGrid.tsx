@@ -9,7 +9,7 @@ const ProjectGrid = () => {
                 <h4
                     className={`text-[16px] md:text-[20px] lg:text-[34px] ${"text-[#e4ded7]"}`}
                 >
-          Check out some of my work!
+          看看我的一些作品！ {/* 原为 Check out some of my work! */}
                 </h4>
             </div>
 
