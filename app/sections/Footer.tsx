@@ -12,18 +12,18 @@ const Footer = () => {
         >
             <motion.div className="mx-auto flex w-[90%] flex-row items-center justify-between text-center text-[12px] text-[#e4ded7] sm:text-[12px] md:text-[14px] lg:max-w-[1440px] lg:text-[14px]">
                 <AnimatedBody
-                    text={"© Kamil Portfolio"}
+                    text={"© 2024 张三 作品集"} // 原为 © Kamil Portfolio，记得改成客户名字
                     className={"m-0 p-0"}
                 />
                 <div className="flex flex-col sm:flex-row  sm:gap-1 md:gap-2">
-                    <AnimatedBody text={"Design & Deployed by"} className={"m-0 p-0"} />
+                    <AnimatedBody text={"设计与部署："} className={"m-0 p-0"} /> {/* 原为 Design & Deployed by */}
                     <Link
                         href=""
                         target="_blank"
                         aria-label=""
                     >
                         <span className="underline underline-offset-2 hover:no-underline">
-                            <AnimatedBody text={"KAMIL"} className={"m-0 p-0"} />
+                            <AnimatedBody text={"张三"} className={"m-0 p-0"} /> {/* 原为 KAMIL，可以改成客户名字或你们工作室的名字 */}
                         </span>{" "}
                     </Link>
                 </div>
