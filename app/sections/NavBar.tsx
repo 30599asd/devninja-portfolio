@@ -30,10 +30,10 @@ const NavBar = () => {
                         href="#home"
                         data-blobity-magnetic="false"
                         onClick={handleScroll}
-                        aria-label="Scroll to Home Section"
+                        aria-label="滚动至首页" // 汉化无障碍标签
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              HOME
+              首页 {/* 原为 HOME */}
                         </h4>
                     </Link>
 
@@ -41,10 +41,10 @@ const NavBar = () => {
                         href="#about"
                         data-blobity-magnetic="false"
                         onClick={handleScroll}
-                        aria-label="Scroll to About Section"
+                        aria-label="滚动至关于我" // 汉化无障碍标签
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              ABOUT
+              关于 {/* 原为 ABOUT */}
                         </h4>
                     </Link>
 
@@ -52,10 +52,10 @@ const NavBar = () => {
                         href="#work"
                         data-blobity-magnetic="false"
                         onClick={handleScroll}
-                        aria-label="Scroll to Work Section"
+                        aria-label="滚动至项目展示" // 汉化无障碍标签
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              WORK
+              项目 {/* 原为 WORK */}
                         </h4>
                     </Link>
 
@@ -63,10 +63,10 @@ const NavBar = () => {
                         href="#contact"
                         data-blobity-magnetic="false"
                         onClick={handleScroll}
-                        aria-label="Scroll to Contact Section"
+                        aria-label="滚动至联系方式" // 汉化无障碍标签
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              CONTACT
+              联系 {/* 原为 CONTACT */}
                         </h4>
                     </Link>
                 </nav>
